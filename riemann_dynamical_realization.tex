@@ -1,0 +1,40 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "source": [
+    "# Riemann Organ – Démo rapide (100 premiers zéros)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "source": [
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "from code.simulation import simulate\n",
+    "from utils.normalize_zeros import load_zeros, normalize_gammas\n",
+    "\n",
+    "# Charge les 100 premiers zéros (à télécharger dans data/)\n",
+    "gammas = np.loadtxt('data/odlyzko_zeros_100.txt')\n",
+    "order_param = simulate(gammas, T=150)\n",
+    "\n",
+    "plt.figure(figsize=(12,4))\n",
+    "plt.plot(order_param)\n",
+    "plt.title('Paramètre d’ordre global – Riemann Organ (100 zéros)')\n",
+    "plt.xlabel('temps')\n",
+    "plt.ylabel('|R(t)|')\n",
+    "plt.grid()\n",
+    "plt.show()"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
