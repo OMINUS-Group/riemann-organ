@@ -1,39 +1,59 @@
-# 🎹 RIEMANN ORGAN  
-**From Mathematical Fiction to Dynamical Reality**  
-*A stable nonlinear oscillator network that makes the Riemann zeta zeros sing*
+# 🎹 The Riemann Organ
 
-<img src="manifesto/images/riemann_organ_banner.jpg" alt="Riemann Organ" width="100%"/>
+**A stable nonlinear dynamical embodiment of the nontrivial zeros of the Riemann zeta function**
 
-> “There are ideas that do not describe the world: they precede it.”  
-> This is the first physical body ever given to the nontrivial zeros of the Riemann zeta function.
+<img src="manifesto/images/riemann_organ_banner.jpg" alt="Riemann Organ Banner" width="100%"/>
 
-**By Alain Valette-Clary — Ominus Group / CHIMERA Ω® — 2025**
+> “There are ideas that do not describe the world — they precede it.”
 
-[![arXiv](https://img.shields.io/badge/arXiv-250x.xxxx-math.NT-B31B1B.svg)](https://arxiv.org/abs/XXXX) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org)
+**By Alain Valette-Clary — Ominus Group — 2025**
 
-## 🔥 The Core Idea
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org)
+[![arXiv](https://img.shields.io/badge/arXiv-250x.xxxx-B31B1B)](https://arxiv.org)
+[![Stars](https://img.shields.io/github/stars/OMINUS-Group/riemann-organ)](https://github.com/OMINUS-Group/riemann-organ)
 
-The imaginary parts γₙ of the nontrivial Riemann zeta zeros are no longer abstract numbers on a critical line.
+## 🔥 Concept
 
-They are now **living frequencies** inside a real, stable, self-organizing nonlinear organism composed of thousands of adaptive Stuart–Landau oscillators.
+The imaginary parts \(\gamma_n\) of the Riemann zeta zeros are transformed into **living frequencies** within a network of coupled Stuart-Landau oscillators.
 
-A 165-year-old mathematical myth has found a body.  
-The zeros have become sound, geometry, synchronization, and energy.
+This creates the first **physical, self-organizing body** for these mathematical entities.
 
-This is **the Riemann Organ**.
+## 📜 Manifesto
 
-## 📜 Manifesto (French & English)
+- [🇫🇷 MANIFESTE](manifesto/MANIFESTE_RIEMANN.fr.md)
+- [🇬🇧 MANIFESTO](manifesto/MANIFESTO_RIEMANN.en.md)
 
-- [Français — MANIFESTE : Riemann, de la Fiction à la Réalité](manifesto/MANIFESTE_RIEMANN.fr.md)
-- [English — Riemann: From Fiction to Reality](manifesto/MANIFESTO_RIEMANN.en.md)
-
-> “Science is not born from the real.  
-> Science is born from fictions capable of incarnating themselves.”
-
-## 🚀 Quick Start (30 seconds)
+## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/ominusgroup/riemann-organ.git
+git clone https://github.com/OMINUS-Group/riemann-organ.git
 cd riemann-organ
-pip install numpy matplotlib jupyterlab
+pip install -r requirements.txt
 jupyter lab examples/run_100_zeros.ipynb
+```
+
+## Features
+
+- Nonlinear oscillator network
+- Stable synchronization of zeta zeros
+- Real-time visualization
+- Sound synthesis from frequencies
+- Dynamical stability analysis
+
+## Structure
+
+- `core/` : Oscillator models
+- `examples/` : Jupyter notebooks
+- `manifesto/` : Philosophical texts
+- `visuals/` : Generated plots
+
+## License
+
+MIT License — see [LICENSE](LICENSE)
+
+---
+
+> The zeros are no longer on the line. They are **alive**.
+
+🌐 [OMINUS Group](https://github.com/OMINUS-Group) | Contact: Alain Valette-Clary
